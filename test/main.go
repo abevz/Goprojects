@@ -5,6 +5,11 @@ import (
 	"os"
 )
 
+type Server struct {
+	Name string
+	ID   int
+}
+
 // main function  
 func main() {
 	a := 2
