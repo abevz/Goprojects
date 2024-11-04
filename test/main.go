@@ -12,12 +12,15 @@ type Server struct {
 
 // main function  
 func main() {
+	// js := Server{
+	//	Name: "",
+	//	ID:   0,
+	//}
 	a := 2
 	b := 2
 	m := []string{"aa"}
 	c := 0 / len(m)
 
-	fmt.Println("FOO:", os.Getenv("FOO"))
 	fmt.Println("BAR:", os.Getenv("Bar"))
 	fmt.Println(c)
 	fmt.Println(len(m))
